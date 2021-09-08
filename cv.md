@@ -27,7 +27,7 @@ I am open to new ideas.
 
 ---
 
-### My Skills ###
+### My Skills:
 
 * HTML5, CSS3/SASS
 * JavaScript (Basics)
@@ -36,10 +36,16 @@ I am open to new ideas.
 * VS Code, SublimeText
 * Photoshop, Figma, Avocode, Tilda
 
+---
 
+### Courses:
 
+- "Profession Frontend Developer" HTML, CSS, JavaScrpt on the online university [GeekBrains](https://gb.ru/professions/frontend_developer/) (in progress)
+- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
+---
 
+### Languages:
 
-
+* English - B1 (Intermediate)
 
