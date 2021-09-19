@@ -1,0 +1,332 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	display: flex;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.wrapper_left {
+	width: 38%;
+	padding: 100px 0;
+	background-color: #C0D8DE;
+}
+
+.card {
+	margin: 0 auto;
+}
+
+.photo {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background: url('img/Simon.jpg') center / cover no-repeat;
+	margin: 0 auto;
+	margin-bottom: 78px;	
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: roboto;
+	font-size: 50px;
+	font-weight: 300;
+	color: #666666;
+	text-transform: uppercase;
+
+}
+
+span {
+	font-weight: 900;
+	letter-spacing: 0.005em;
+	color: #242424;
+}
+
+.subtitle {
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 20px;
+	color: #666666;
+	text-transform: uppercase;
+	margin-bottom: 70px;
+}
+
+h2 {
+	text-align: center;
+	font-family: Poppins;
+	font-weight: 800;
+	font-size: 30px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #242424;
+	margin-bottom: 40px;
+}
+
+
+.line {
+	display: block;
+	width: 75%;
+	height: 3px;
+	background-color: #828282;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+.contacts {
+	margin-bottom: 50px;
+}
+
+.my_cont {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 27px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #242424;
+	margin-bottom: 14px;
+}
+
+.my_subcont {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #4F4F4F;
+	margin-bottom: 35px;
+}
+
+ul {
+	
+	padding:0;
+   list-style: none;
+   width: 70%;
+   margin: 0 auto;
+}
+
+li {
+	position: relative;
+	text-align: start;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 0.01em;
+	color: #242424;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+
+.marks {
+	position: absolute;
+	top: 12px;
+	left: 165px;
+	display: flex;
+}
+
+.point {
+
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #242424;
+	margin: 0 5px;
+}
+
+.point_grey {
+	background-color: rgba(36, 36, 36, 0.5);
+}
+
+
+/*-----------------right area CV-----------------*/
+
+
+
+.wrapper_right {
+	width: 64%;
+	padding: 100px 50px 40px;
+	background-color: #E4E6E7;
+}
+
+p {
+	max-width: 100%;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 2%;
+	text-align: start;
+	margin-bottom: 50px;
+	
+}
+
+.wrapper_right H2 {
+	font-size: 24px;
+	color: #fff;
+	background-color: #000;
+	padding: 21px auto;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.education {
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+.year {
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 17px;
+	text-align: center;
+	color: #999999;
+	margin-bottom: 8px;
+}
+
+.description {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 170%;
+	text-align: center;
+	color: #242424;
+	margin-bottom: 50px;
+}
+
+
+.list_skills {
+	display: flex;
+	/*justify-content: space-between;*/
+	padding: 17px 0;
+}
+
+.list_marks {
+	position: relative;
+}
+
+.list_marks .line {
+	position: absolute;
+	top: -22px;
+	right: 20px;
+	width: 150px;
+	height: 12px;
+	background-color: #242424;
+
+	z-index: 1;
+
+}
+
+.list_marks .line_1 {
+	position: absolute;
+	right: 5;
+	width: 5%;
+	z-index: 2;
+	background-color: #B9B9B9;
+}
+
+.list_marks .line_2 {
+	position: absolute;
+	right: 5;
+	width: 25%;
+	background-color: #B9B9B9;
+	z-index: 2;
+}
+
+.list_marks .line_3 {
+	position: absolute;
+	right: 5;
+	width: 50%;
+	background-color: #B9B9B9;
+	z-index: 2;
+
+}
+
+.list_marks .line_4 {
+	position: absolute;
+	right: 0;
+	width: 20%;
+	background-color: #B9B9B9;
+	z-index: 2;
+}
+
+.list_marks .line_5 {
+	position: absolute;
+	right: 0;
+	width: 25%;
+	background-color: #B9B9B9;
+	z-index: 2;
+}
+
+.list_marks .line_6 {
+	position: absolute;
+	right: 0;
+	width: 15%;
+	background-color: #B9B9B9;
+	z-index: 2;
+
+}
+
+.my_skills-right{
+	margin-left: 9px;
+}
+
+.my_skills-right .line_black {
+	right: 0;
+}
+
+/*------------------footer-----------------------*/
+
+.footer_items {
+	max-width: 1024px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 0;
+	margin: 0 auto;
+	background-color: #404040;
+}
+
+.footer_year {
+	font-size: 16px;
+	color: #fff;
+}
+
+.git_icon {
+	width: 50px;
+	height: 50px;
+	
+}
+
+.school-js img {
+	width: 80px;
+	height: 40px;
+	color: #fff;
+	background-color: #FFA500;
+	padding: 0 6px;
+}
+
+
